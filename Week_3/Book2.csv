@@ -1,0 +1,12 @@
+﻿Region,Age,Income,Online_shopper
+India ,49,86400,NO
+Brazil,32,57600,YES
+USA,35,64800,NO
+Brazil,43,73200,NO
+USA,45,,YES
+India ,40,69600,YES
+Brazil,,62400,NO
+India ,53,94800,YES
+Brazil,,,NO
+USA ,55,99600,YES
+India ,42,80204,
