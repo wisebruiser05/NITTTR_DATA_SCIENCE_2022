@@ -5,6 +5,7 @@ Created on Mon Jun 27 17:23:23 2022
 @author: hp
 """
 
+
 # Question
 # Read a csv file, mean , median, mode, median_high, median_low, range, var, cov and ,manually
 
@@ -48,10 +49,15 @@ print('\n')
 Maximum_Age = max(df['Age'])
 Minimum_Age = min(df['Age'])
 Range_Age = Maximum_Age - Minimum_Age
-print('Maximum_Age : {}, Minimum_Age : {}, Range_Age : {}'.format(Maximum_Age, Minimum_Age, Range_Age))
+print(
+    f'Maximum_Age : {Maximum_Age}, Minimum_Age : {Minimum_Age}, Range_Age : {Range_Age}'
+)
+
 # Range Marks
 print('\n')
 Maximum_Marks = max(df['Marks'])
 Minimum_Marks = min(df['Marks'])
 Range_Marks = Maximum_Marks - Minimum_Marks
-print('Maximum_Marks : {}, Minimum_Marks : {}, Range_Marks : {}'.format(Maximum_Marks, Minimum_Marks, Range_Marks))
+print(
+    f'Maximum_Marks : {Maximum_Marks}, Minimum_Marks : {Minimum_Marks}, Range_Marks : {Range_Marks}'
+)

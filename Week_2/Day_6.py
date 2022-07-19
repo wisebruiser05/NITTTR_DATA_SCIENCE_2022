@@ -7,7 +7,7 @@ my_fun()
 
 #with parameter
 def new_func(fname):
-    print(fname + 'hello.txt')
+    print(f'{fname}hello.txt')
     
 new_func('Abhishek')
 new_func('Ankit')
@@ -61,7 +61,7 @@ def func(n):
 doubler = func(2)
 tripler = func(3)
 val = 11
-print("Doubled : " + str(doubler(val)) + ", Tripler : " + str(tripler(val)))
+print(f"Doubled : {str(doubler(val))}, Tripler : {str(tripler(val))}")
 #print(doubler(val))
 
 
@@ -91,7 +91,7 @@ print("Python Modules : ")
 
 # Create Module
 def greeting(name):
-    print("Hello, " + name)
+    print(f"Hello, {name}")
     person1 = {"name" : "urvashi", 
                "age" : 26, 
                "country" : "India"}    
