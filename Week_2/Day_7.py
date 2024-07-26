@@ -47,7 +47,7 @@ class Person1:
         self.age1 = age1
 
     def myfunc(self):
-        print("Hello my name is " + self.name1)
+        print(f"Hello my name is {self.name1}")
 
 
 p2 = Person1("Abhishek", 23)
@@ -66,7 +66,7 @@ But it is advisable to use self because it increases the readability of code
 
 
 class this_is_car:
-    def show(in_place_of_self):
+    def show(self):
         print("We have used another parameter in place of self")
         """
         print("We have used another" 

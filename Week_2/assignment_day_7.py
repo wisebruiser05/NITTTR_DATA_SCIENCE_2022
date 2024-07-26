@@ -109,13 +109,13 @@ class Time:
         self.hours = hours
         self.minutes = minutes
 
-    def addTime(t1, t2):
+    def addTime(self, t2):
         t3 = Time(0, 0)
-        t_min = t1.minutes + t2.minutes
+        t_min = self.minutes + t2.minutes
         if t_min > 60:
             t3.hours = t_min / 60
         t3.minutes = int(t_min - (t3.hours * 60))
-        t3.hours = int(t3.hours + t2.hours + t1.hours)
+        t3.hours = int(t3.hours + t2.hours + self.hours)
         return t3
 
     def displayTime(self):

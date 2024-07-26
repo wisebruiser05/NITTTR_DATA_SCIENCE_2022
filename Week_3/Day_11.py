@@ -5,6 +5,7 @@ Created on Mon Jun 27 13:19:05 2022
 @author: hp
 """
 
+
 '''
 Understanding Statistics in Python
 '''
@@ -42,20 +43,20 @@ data5 = (-1,-2,-3,-4,4,3,2,1)
 
 data6 = ('')
 
-print("Median of data set 1 is %s" %(median((data1))))
-print("Median of data set 2 is %s" %(median((data2))))
-print("Median of data set 3 is %s" %(median((data3))))
-print("Median of data set 4 is %s" %(median((data4))))
-print("Median of data set 5 is %s" %(median((data5)))) 
+print(f"Median of data set 1 is {median(data1)}")
+print(f"Median of data set 2 is {median(data2)}")
+print(f"Median of data set 3 is {median(data3)}")
+print(f"Median of data set 4 is {median(data4)}")
+print(f"Median of data set 5 is {median(data5)}") 
 
 # Python working with median_low() and median_high()
 import statistics
 
 set1 = [1,3,3,4,5,7]
 
-print("Median of the set is %s" %(statistics.median(set1)))
-print("High Median of the set is %s" %(statistics.median_high(set1)))
-print("Low Median of the set is %s" %(statistics.median_low(set1)))
+print(f"Median of the set is {statistics.median(set1)}")
+print(f"High Median of the set is {statistics.median_high(set1)}")
+print(f"Low Median of the set is {statistics.median_low(set1)}")
 
 
 arr = [1,2,3,4,5]
@@ -66,7 +67,7 @@ Minimum = min(arr)
 Range  = Maximum - Minimum
 
 
-import numpy as np 
+import numpy as np
 # example 1: calculating varinace of an array
 a = np.array([[1,2],[3,4]])
 a
@@ -98,7 +99,7 @@ print(np.stack((a,b),axis = 1))
 # Variance 
 from statistics import variance
 data1 = (2,3,4,3,2,5,6,7,8)
-print("Variance of data 1 %s" %(variance(data1)))
+print(f"Variance of data 1 {variance(data1)}")
 
 
 # Co variance

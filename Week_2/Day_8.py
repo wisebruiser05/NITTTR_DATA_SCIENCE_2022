@@ -5,15 +5,12 @@ try:
     print(x)
 except:
     print("An exception occured")
-    
+
 # Print one message if the try block raises a NameError and another for other errors
 try:
     print(x)
 except NameError:
     print("Variable x is not defined")
-except:
-    print("Something else went wrong")
-
 # The try block does not generate any error
 try:
     print("Hello")
@@ -56,9 +53,6 @@ try:
     print(a+b)
 except TypeError:
     print("Type Error")
-except:
-    print("Other Error")
-
 #  Index error
 # using list
 l = [2,3,4,5,6,67]
@@ -66,18 +60,12 @@ try:
     print(l[8])
 except IndexError:
     print("Index Error")
-except:
-    print("Other error")
-
 # using string
 st = "Abhishek"
 try:
     print(st[10])
 except IndexError:
     print("Index Error")
-except:
-    print("Other Error")
-    
 # Question 1
 #
 try:
@@ -85,6 +73,4 @@ try:
     print(file.read())
 except FileNotFoundError:
     print("File Not Found Error")
-except:
-    print("Other error")
     
